@@ -27,6 +27,19 @@ A Machine Learning-powered application for crime prediction in Buffalo, NY, usin
 Prerequisites: `Python 3.8` or higher
 
 ### Setup Instructions  
+
+> Dataset from Open Data Buffalo: <a href="https://data.buffalony.gov/Public-Safety/Crime-Incidents/d6g9-xbgu/data_preview">Data</a> (It also has API endpoint link)
+
+> Link for the trained model can be downloded from here(`random_forest_model.pkl` file): <a href="https://drive.google.com/file/d/1Vn41YcJ9SgeZmqWflmDFlvRhMbj65jEN/view?usp=sharing">Download here</a>
+
+Directory:
+```
+  . src
+    ├── app.py                    
+    ├── random_forest_model.pkl                   
+    ├── buff_crime.ipynb                        
+    └── requirements.txt
+```
 Clone the Repository:  
 ```bash
 
